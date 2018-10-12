@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>pluginsdemo</title>
+		<link rel="stylesheet" type="text/css" href="css/pluginsdemo.css" />
+	</head>
+
+	<body>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/plugins.js"></script>
+		<script type="text/javascript">
+			$.stellar({
+				horizontalScrolling: false,
+				hideDistantElements: false
+			});
+
+			$(window).load(function() {
+
+				setTimeout(function() {
+					$.stellar('refresh');
+				}, 1000);
+
+			});
+		</script>
+		<div class="kong">
+
+		</div>
+
+		<div class="kong">
+
+		</div>
+		<div class="aa">
+			<div class="zi">
+				<h1>hello word</h1>
+			</div>
+			<div class="ss" data-stellar-background-ratio="0.3">
+			</div>
+		</div>
+		<div class="kong">
+		</div>
+	</body>
+
+</html>
