@@ -1,0 +1,35 @@
+.kong{
+	width: 100%;
+	height: 600px;
+	background: #0000FF;
+	position: relative;
+}
+.ss{
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: ;
+	width: 100%;
+	top: -30px;
+	height: 680px;
+	background: url(../img/about_us_title_bg.jpg);
+	position: absolute;
+	background-attachment: fixed;
+	background-size:cover;
+	z-index: -1;
+}
+.zi{
+	width: 40%;
+	height: 300px;
+	position: relative;
+}
+.aa{
+	
+	width: 100%;
+	height:650px;
+	position: relative;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
